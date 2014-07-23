@@ -1,0 +1,13 @@
+/home/tubuntu/game/project/Plane/linux-build/CMakeFiles/MyGame.dir
+/home/tubuntu/game/project/Plane/linux-build/CMakeFiles/MyGame_CORE_PRE_BUILD.dir
+/home/tubuntu/game/project/Plane/linux-build/CMakeFiles/MyGame_PRE_BUILD.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/cocos/audio/CMakeFiles/audio.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/external/chipmunk/src/CMakeFiles/chipmunk_static.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/cocos/CMakeFiles/cocos2d.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/cocos/editor-support/cocosbuilder/CMakeFiles/cocosbuilder.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/cocos/editor-support/cocostudio/CMakeFiles/cocostudio.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/extensions/CMakeFiles/extensions.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/cocos/editor-support/spine/CMakeFiles/spine.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/external/tinyxml2/CMakeFiles/tinyxml2.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/external/unzip/CMakeFiles/unzip.dir
+/home/tubuntu/game/project/Plane/linux-build/cocos2d/external/xxhash/CMakeFiles/xxhash.dir

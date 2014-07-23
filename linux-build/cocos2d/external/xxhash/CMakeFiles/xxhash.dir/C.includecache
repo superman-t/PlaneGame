@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tubuntu/game/project/Plane/cocos2d/external/xxhash/xxhash.c
+xxhash.h
+/home/tubuntu/game/project/Plane/cocos2d/external/xxhash/xxhash.h
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/home/tubuntu/game/project/Plane/cocos2d/external/xxhash/xxhash.h
+
