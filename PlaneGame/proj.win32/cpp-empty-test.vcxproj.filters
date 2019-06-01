@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Classes\reader">
+      <UniqueIdentifier>{a899a7d9-adba-4fc2-a9e0-9ec4f9a7d30a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\animation\AnimateClip.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\animation\Animation.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\animation\AnimationClip.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\model\AnimationData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\animation\AnimationManager.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\animation\AnimationState.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\armature\Armature.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\model\ArmatureData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\factories\BaseFactory.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\core\BaseObject.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\animation\Bezier.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\armature\Bone.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\cocos2dx\CCArmatureDisplay.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\cocos2dx\CCFactory.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\cocos2dx\CCSlot.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\cocos2dx\CCTextureData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\collider\Collider.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\collider\ColliderManager.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\collider\Contract.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\CreatorReader.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\parsers\DataParser.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\model\DragonBonesData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\animation\Easing.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\events\EventObject.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\model\FrameData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\collider\Intersection.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\parsers\JSONDataParser.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\ui\PageView.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\ui\RichtextStringVisitor.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\armature\Slot.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\textures\TextureData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\model\TimelineData.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\animation\TimelineState.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+    <ClCompile Include="reader\dragonbones\animation\WorldClock.cpp">
+      <Filter>Classes\reader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\AnimateClip.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\AnimationClip.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\AnimationClipProperties.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\AnimationManager.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\Bezier.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\animation\Easing.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\collider\Collider.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\collider\ColliderManager.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\collider\Contract.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\collider\Intersection.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\Animation.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\AnimationState.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\BaseTimelineState.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\IAnimateble.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\TimelineState.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\animation\WorldClock.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\armature\Armature.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\armature\Bone.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\armature\IArmatureDisplay.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\armature\Slot.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\armature\TransformObject.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\cocos2dx\CCArmatureDisplay.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\cocos2dx\CCDragonBonesHeaders.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\cocos2dx\CCFactory.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\cocos2dx\CCSlot.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\cocos2dx\CCTextureData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\core\BaseObject.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\core\DragonBones.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\events\EventObject.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\factories\BaseFactory.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\geom\ColorTransform.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\geom\Matrix.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\geom\Point.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\geom\Rectangle.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\geom\Transform.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\model\AnimationData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\model\ArmatureData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\model\DragonBonesData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\model\FrameData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\model\TimelineData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\parsers\DataParser.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\parsers\JSONDataParser.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\textures\TextureData.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\dragonbones\DragonBonesHeaders.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\code_generators.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\flatbuffers.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\grpc.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\hash.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\idl.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\reflection.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\reflection_generated.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\flatbuffers\util.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\ui\PageView.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\ui\RichtextStringVisitor.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\CreatorReader.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\CreatorReader_generated.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="reader\Macros.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libunzip.a  CMakeFiles/unzip.dir/ioapi.cpp.o CMakeFiles/unzip.dir/unzip.cpp.o
-/usr/bin/ranlib ../../../lib/libunzip.a

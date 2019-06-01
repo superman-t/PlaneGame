@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../../lib/libaudio.a  CMakeFiles/audio.dir/linux/SimpleAudioEngineFMOD.cpp.o CMakeFiles/audio.dir/linux/FmodAudioPlayer.cpp.o
-/usr/bin/ranlib ../../../lib/libaudio.a

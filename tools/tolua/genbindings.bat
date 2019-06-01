@@ -1,0 +1,2 @@
+python genbindings.py
+pause
