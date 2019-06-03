@@ -3,9 +3,10 @@
 ## Run the game  
 I just run the game on pc with Visual Studio 2015, so you need your Visual Studio version greater 2015.  
 **Blow is the step**
-> git clone https://github.com/superman-t/PlaneGame.git  
-> cd PlaneGame  
-
+```bash
+git clone https://github.com/superman-t/PlaneGame.git  
+cd PlaneGame  
+```
 now open the **premake folder** and click the **GenerateProject.bat**.  
 then will create **build Bin Lib** folder  
 
