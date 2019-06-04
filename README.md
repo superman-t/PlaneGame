@@ -7,6 +7,7 @@ I just run the game on pc with Visual Studio 2015, so you need your Visual Studi
 git clone https://github.com/superman-t/PlaneGame.git  
 cd PlaneGame  
 ```
+Because use premake as build tools, so you need first install [Lua](https://www.lua.org/).  
 now open the **premake folder** and click the **GenerateProject.bat**.  
 then will create **build Bin Lib** folder  
 
